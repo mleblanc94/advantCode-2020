@@ -4,7 +4,7 @@ const raw = fs.readFileSync("numbers.txt", "utf8")
 
 const report = raw.split(/\n/).map(n => Number(n));
 
-console.log("bodyhair");
+console.log("testing");
 
 function findExpenses(array) {
   for (let index = 0; index < array.length - 1; index++){
