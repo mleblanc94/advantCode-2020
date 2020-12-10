@@ -1,11 +1,4 @@
-//Filter for 2 numbers in a list of 200 that will equal 2020
-
-let data = [];
-
-// // fetching data from txt file
-async function getData() {
-//   const response = await fetch('numbers.txt');
-  const text = 1711
+1711
 1924
 1384
 1590
@@ -204,21 +197,4 @@ async function getData() {
 1898
 1661
 1806
-1851;
-  data = text.split('\n');
-  // partOne(data);
-  // partTwo(data);
-}
-
-// check the sum and log the multiplication if the sum is true
-function partOne(data) {
-  for (let i = 0; i < data.length; i++) {
-    for (let j = 1; j < data.length; j++) {
-      if (parseInt(data[i]) + parseInt(data[j]) === 2020)
-        console.log('partOne:', data[i] * data[j]);
-    }
-  }
-}
-
-getData();
-partOne(data);
+1851
